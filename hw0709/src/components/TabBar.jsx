@@ -8,6 +8,7 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   margin: 0.5 0 1.5rem;
+  padding: 0 0.5rem;
 `;
 
 const Tabs = styled.ul`

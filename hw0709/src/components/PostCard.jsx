@@ -30,10 +30,13 @@ const Card = styled.article`
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
+  padding: 0 0.5rem;
 
-  transition: box-shadow 0.2s ease;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
   &:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
   }
 `;
 
@@ -44,7 +47,7 @@ const Thumbnail = styled.img`
 `;
 
 const Body = styled.div`
-  flex: 1 1 auto; /* 남는 높이 전부 차지 */
+  flex: 1 1 auto;
   display: flex;
   flex-direction: column;
   padding: 1rem 1.25rem;

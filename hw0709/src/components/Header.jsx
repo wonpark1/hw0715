@@ -5,6 +5,7 @@ import { FiSearch, FiBell } from "react-icons/fi";
 
 const Wrapper = styled.header`
   display: flex;
+  margin-top: 20px;
 
   align-items: center;
   justify-content: space-between;
@@ -17,6 +18,7 @@ const Logo = styled.h1`
   font-weight: 700;
   font-size: 1.4rem;
   cursor: pointer;
+  margin: 0;
 `;
 
 const IconGroup = styled.div`
