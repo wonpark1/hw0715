@@ -5,7 +5,7 @@ import PostCard from "./PostCard";
 
 const Grid = styled.section`
   display: grid;
-  gap: 1.5rem;
+  gap: 2.5rem;
   padding: 0;
   width: 100%;
 

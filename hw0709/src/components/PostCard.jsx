@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { FiHeart } from "react-icons/fi";
+import { FaHeart } from "react-icons/fa";
 
 const EXTRA_INFO = {
   1: {
@@ -141,7 +141,7 @@ function PostCard({ post }) {
           </AuthorGroup>
 
           <LikeGroup>
-            <FiHeart />
+            <FaHeart style={{ fill: "#000" }} />
             {extra.likes}
           </LikeGroup>
         </Footer>
