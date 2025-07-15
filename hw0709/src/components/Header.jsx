@@ -13,12 +13,10 @@ const Wrapper = styled.header`
   padding: 0 1rem;
 `;
 
-const Logo = styled.h1`
-  font-family: "Pretendard", sans-serif;
-  font-weight: 700;
-  font-size: 1.4rem;
+const LogoImg = styled.img`
+  height: 32px;
   cursor: pointer;
-  margin: 0;
+  display: block;
 `;
 
 const IconGroup = styled.div`
@@ -36,12 +34,13 @@ const LoginBtn = styled.button`
   color: #ffffff;
   background: #000000;
   cursor: pointer;
+  font-weight: bold;
 `;
 
 function Header() {
   return (
     <Wrapper>
-      <Logo>velog</Logo>
+      <LogoImg src="velog.png" alt="velog logo" />
       <IconGroup>
         <FiBell />
         <FiSearch />

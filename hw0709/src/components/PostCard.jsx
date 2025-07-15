@@ -25,13 +25,14 @@ const EXTRA_INFO = {
 
 const Card = styled.article`
   background: #fff;
-  border: 1px solid #eee;
-  border-radius: 8px;
+  border: 1px solid #e3e0e0;
+
   width: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
   padding: 0 0.5rem;
+  max-width: 400px;
 
   transition: box-shadow 0.2s ease, transform 0.2s ease;
   &:hover {

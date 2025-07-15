@@ -4,23 +4,21 @@
   font-weight: 400;
 
   color: rgba(0, 0, 0, 0.87);
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* --- Global reset (여백 제거) ---------------- */
+
 html,
 body,
 #root {
-  /* ★ #root 추가 */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* -------------------------------------------- */
 
 a {
   font-weight: 500;

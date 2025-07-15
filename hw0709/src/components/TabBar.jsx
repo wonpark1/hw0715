@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 const Tabs = styled.ul`
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -50,7 +50,6 @@ const Tab = styled.li`
 const RightGroup = styled.div`
   display: flex;
   align-items: center;
-  gap: 1rem;
 `;
 
 const MonthBtn = styled.button`
